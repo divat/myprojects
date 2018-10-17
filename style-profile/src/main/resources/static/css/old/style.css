@@ -1,0 +1,178 @@
+#cssmenu {
+	border: none;
+	border: 1px;
+	margin: 0px;
+	padding: 0px;
+	font: 67.5% 'Lucida Sans Unicode', 'Bitstream Vera Sans',
+		'Trebuchet Unicode MS', 'Lucida Grande', Verdana, Helvetica,
+		sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	width: 100%;
+	/*background: url(../images/main-bg.png) repeat-x;*/
+	
+	
+}
+.trmenu{
+	/*max-height: 10px;*/
+	vertical-align: top;
+	padding: 0px;
+}
+#cssmenu ul {
+		/*test*/
+	/*background: rgb(76,76,76); *//* Old browsers */
+	
+	/*background: url(../images/main-bg.png) repeat-x;*/
+	
+	/*background-color: rgb(74,81,85);*/
+	/*background-color: rgb(109,183,214);*/
+	background-color: rgb(27,134,183);
+    height: 35px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+	
+}
+
+#cssmenu li {
+	
+	float: left;
+	padding: 0px;
+}
+
+#cssmenu li a {
+	/*test*/
+	/*background: #333333 url('images/seperator.gif') bottom right no-repeat;*/
+	background: url(../images/main-bg.png) repeat-x;
+	/* background-color: rgb(74,81,85);*/
+	/*background-color: rgb(109,183,214);*/
+	background-color: rgb(27,134,183);
+	
+	display: block;
+	font-weight: normal;
+	line-height: 35px;
+	margin: 0px;
+	padding: 0px 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#cssmenu>ul>li>a {
+	color: #cccccc;
+	
+}
+
+#cssmenu ul ul a {
+	color: #cccccc;
+}
+
+#cssmenu li>a:hover,#cssmenu ul li:hover>a {
+	/*test*/
+	/*background: #222222 url('images/hover.png') bottom center no-repeat;*/
+		 /*background-color: rgb(74,81,85);*/
+		 /*background-color: rgb(109,183,214);*/
+		 background-color: rgb(27,134,183);
+	color: #FFFFFF;
+	text-decoration: none;
+	
+}
+
+#cssmenu li ul {
+	/*background: #333333;*/
+	/*background-color: rgb(109,183,214);*/
+	background-color: rgb(27,134,183);
+	display: none;
+	height: auto;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	position: absolute;
+	min-width: 15%;
+	z-index: 200;
+	
+	/*top:1em;
+	/*left:0;*/
+}
+
+#cssmenu li:hover ul {
+	display: block;
+	
+}
+
+#cssmenu li li {
+	/*test*/
+	/*background: url('images/sub_sep.gif') bottom left no-repeat;*/
+	
+	/* background-color: rgb(74,81,85);*/
+	/*background-color: rgb(109,183,214);*/
+	background-color: rgb(27,134,183);
+	display: block;
+	float: none;
+	margin: 0px;
+	padding: 0px;
+	min-width: 15%;
+}
+
+#cssmenu li:hover li a {
+	background: none;
+}
+
+#cssmenu li ul a {
+	display: block;
+	height: 35px;
+	font-size: 14px;
+	/*font-style: normal;*/
+	
+	margin: 0px;
+	padding: 0px 10px 0px 15px;
+	text-align: left;
+	
+}
+ 
+#cssmenu li ul a:hover,#cssmenu li ul li:hover>a {
+	/*test*/
+	/*background: #222222 url('images/hover_sub.png') center left no-repeat;*/
+	/* background-color: rgb(74,81,85);*/
+	background-color: rgb(109,183,214);
+	/*background-color: rgb(21,131,181);*/
+	border: 0px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#cssmenu p {
+	clear: left;
+}
+.clsDivSearch {
+       position: absolute;
+       top: 20%;
+       left: 28%;
+      
+       display: none;
+       color: black;     
+       border: #666666 solid 2px;
+        background-color: white;
+      overflow:auto;
+      
+       /*filter: alpha(opacity = 10); 
+         opacity: 0.5;
+       z-index: 1000;    
+       -moz-opacity: 0.8;*/
+       /*overflow:auto;*/
+
+}
+
+.clsDivSearchFields {
+       overflow:auto;
+      
+       text-align: left;
+       overflow: auto;
+        border: 1px #c8c8c8;
+  
+ }
+.popupheader{
+       background-color: rgb( 43, 153, 91 );
+       text-align: center;
+
+       }

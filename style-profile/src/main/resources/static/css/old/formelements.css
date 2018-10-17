@@ -1,0 +1,105 @@
+
+
+.frmError
+{
+	background-color: red;
+}
+.frmName
+{
+	font-weight:bold;
+  	font: 25px "calibri";
+}
+.frmHeader
+{
+	
+}
+.errorMessage {
+  color: red;
+  font-size: 10px;
+}			
+.button-link {
+	 width:82px;
+		height:32px;
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    text-decoration: none;
+}
+.button-link:hover {
+    background: #356094;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+.button-link:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #2E5481;
+    border: solid 1px #203E5F;
+}
+/* #Forms
+================================================== */
+input[type="text"],input[type="password"]
+input[type="email"],
+	textarea, 
+	select {
+  width:92%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+
+legend {
+  padding: 0.2em 0.5em;
+  border:1px solid grey;
+  color:grey;
+  font-size:90%;
+  text-align:left;
+  font-weight:bold;
+  font: 15px "Trebuchet MS";
+  }
+  
+	fieldset { 
+		margin-bottom: 20px;
+		font: 12px "Trebuchet MS";
+		border:1px solid grey;
+		 }
+	
+	select { 
+		padding: 0; }
+	
+	textarea {
+		min-height: 60px; }
+	select { 
+		width: 220px; }
+	input[type="checkbox"] {
+		display: inline; }
+	label span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+		
+		label {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+	
